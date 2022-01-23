@@ -65,13 +65,17 @@
                         }
                         &.active a {
                             font-weight: 500;
-                            color: $colormain;
+                            color: orange;
                         }
                     }
                 }
-                &.active span {
+                &.active {
                     font-weight: 500;
-                    color: $colormain;
+                    background-color: #ededed;
+                    a {
+                        font-weight: 500;
+                        color: orange;
+                    }
                 }
                 &:hover {
                     background-color: darken($bg-menu-color, 3);
